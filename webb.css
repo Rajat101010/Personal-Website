@@ -1,0 +1,120 @@
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sub_title{
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 500px;
+    height: 200px;
+}
+
+.button2 {
+    background-color: #04AA6D; 
+    color: white; 
+    border: 2px solid #04AA6D;
+  }
+  
+  .button2:hover {
+    background-color: white;
+    color: #04AA6D;
+  }
+
+
+@media (max-width: 600px) {
+    .button-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+.but-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+  
+.but-container img {
+    width: 100%;
+    height: auto;
+}
+  
+.but-container .btn {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 90%;
+}
+  
+.but-container .btn:hover {
+    background-color: white;
+    color: #04AA6D;
+}
+
+
+.my_pic{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+    font-family: Arial;
+}
+
+.btn-group .button3 {
+    background-color: #04AA6D;
+    border: 1px solid green;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+.btn-group .button3:not(:last-child) {
+    border-right: none;
+}
+  
+.btn-group .button3:hover {
+    background-color: #3e8e41;
+}
