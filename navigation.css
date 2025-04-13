@@ -1,0 +1,41 @@
+.navigation{
+    width: 80%;
+}
+
+.nav_space{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.navigation_icon{
+    font-family: Arial;
+    font-size: 2.5rem;
+    transition: .1s ease;
+}
+
+.navigation_space{
+    width: 10%;
+}
+
+.linkedin_link{
+    height: 5rem;
+}
+
+.cv_link{
+    height: 5rem;
+}
+
+@media(max-width: 998px){
+    .navigation{
+        width: 80%;
+    }
+    .navigation_icon{
+        font-size: 4rem;
+    }
+    .linkedin_link{
+        height: 7rem;
+    }
+    .cv_link{
+        height: 7rem;
+    }
+}

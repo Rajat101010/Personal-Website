@@ -1,0 +1,60 @@
+.punctuality_certificate_section{
+    width: 80%;
+}
+
+.punctuality_certificate_table{
+    width: 100%;
+}
+
+.punctuality_certificate_icon{
+    height: 10rem;
+    border-radius: 2rem;
+}
+
+.punctuality_certificate_font_1{
+    font-size: 4rem;
+    font-family: Verdana, sans-serif;
+}
+
+.punctuality_certificate_font_2{
+    font-size: 4rem;
+    font-family: Verdana, sans-serif;
+    color: green;
+}
+
+.punctuality_certificate_font_3{
+    font-size: 3rem;
+    font-family: sans-serif;
+}
+
+.punctuality_certificate_font_4{
+    font-size: 1.5rem;
+    font-family: Verdana, sans-serif;
+}
+
+@media(max-width: 998px){
+    .punctuality_certificate_icon{
+        height: 13rem;
+        border-radius: 2rem;
+    }
+    
+    .punctuality_certificate_font_1{
+        font-size: 5.8rem;
+        font-family: Verdana, sans-serif;
+    }
+    
+    .punctuality_certificate_font_2{
+        font-size: 5.8rem;
+        font-family: Verdana, sans-serif;
+        color: green;
+    }
+    
+    .punctuality_certificate_font_3{
+        font-size: 4.2rem;
+        font-family: sans-serif;
+    }
+    .punctuality_certificate_font_4{
+        font-size: 2.2rem;
+        font-family: Verdana, sans-serif;
+    }
+}

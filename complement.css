@@ -1,0 +1,46 @@
+.complement_section{
+    width: 80%;
+}
+
+.complement_font_1{
+    font-size: 3rem;
+    font-family: Arial;
+    color: green;
+}
+
+.complement_font_2{
+    font-size: 1.8rem;
+    font-family:  Verdana, sans-serif;
+}
+
+.complement_font_3{
+    font-size: 4.5rem;
+    font-family: Serif;
+    color: green;
+}
+
+.complement_space{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+@media(max-width: 998px){
+    .complement_font_1{
+        font-size: 4rem;
+        font-family: Arial;
+        color: green;
+    }
+    .complement_font_2{
+        font-size: 2.5rem;
+        font-family:  Verdana, sans-serif;
+    }
+    .complement_font_3{
+        font-size: 6rem;
+        font-family: Serif;
+        color: green;
+    }
+    .complement_space{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
