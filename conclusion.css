@@ -1,0 +1,100 @@
+.conclusion_part{
+    width: 100%;
+    background-color:beige;
+}
+
+.conclusion_headline{
+    width: 80%;
+    font-family: monospace;
+    font-size: 2rem;
+    color: black;
+}
+
+.conclusion_hr{
+    height:.1rem;
+    border-width:0;
+    width:90%;
+    color:green;
+    background-color:green
+}
+
+.conclusion_content{
+    width: 90%;
+}
+
+.social_font{
+    font-family: Verdana, sans-serif;
+    font-size: 2rem;
+    color: black;
+}
+
+.page_link_font{
+    font-family: Verdana, sans-serif;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.social_logo{
+    font-family: Verdana, sans-serif;
+    font-size: 3rem;
+    color: black;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.rajat_symbol{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2.5rem;
+}
+
+.font_for_space{
+    font-family: Verdana, sans-serif;
+    font-size: 1.5rem;
+    color: #DE3163;
+}
+
+.copyright_message{
+    font-family: Verdana, sans-serif;
+    font-size: 1.6rem;
+    color: black;
+}
+
+@media(max-width: 998px){
+    .conclusion_headline{
+        width: 80%;
+        font-family: monospace;
+        font-size: 3rem;
+        color: black;
+    }
+    .social_font{
+        font-family: Verdana, sans-serif;
+        font-size: 3rem;
+        color: black;
+    }
+    .page_link_font{
+        font-family: Verdana, sans-serif;
+        font-size: 2rem;
+        color: black;
+    }
+    .social_logo{
+        font-family: Verdana, sans-serif;
+        font-size: 4rem;
+        color: black;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .rajat_symbol{
+        font-family: 'Brush Script MT', cursive;
+        font-size: 3rem;
+    }
+    .font_for_space{
+        font-family: Verdana, sans-serif;
+        font-size: 2rem;
+        color: #DE3163;
+    }
+    .copyright_message{
+        font-family: Verdana, sans-serif;
+        font-size: 2.2rem;
+        color: black;
+    }
+}

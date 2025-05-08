@@ -1,0 +1,71 @@
+.course_completed_section{
+    width: 90%;
+}
+
+.course_completed_table{
+    width: 100%;
+}
+
+.course_completed_font_1{
+    font-size: 4rem;
+    font-family: Verdana, sans-serif;
+}
+
+.course_completed_font_2{
+    font-size: 4rem;
+    font-family: Verdana, sans-serif;
+    color: green;
+}
+
+.course_completed_font_3{
+    font-size: 3rem;
+    font-family: sans-serif;
+}
+
+.course_completed_font_4{
+    font-size: 1.5rem;
+    font-family: Verdana, sans-serif;
+}
+
+.course_completed_font_5{
+    font-size: 1.3rem;
+    font-family: Verdana, sans-serif;
+    color: green;
+}
+
+.course_completed_icon{
+    height: 5rem;
+}
+
+@media(max-width: 998px){
+    .course_completed_font_1{
+        font-size: 5.8rem;
+        font-family: Verdana, sans-serif;
+    }
+    
+    .course_completed_font_2{
+        font-size: 5.8rem;
+        font-family: Verdana, sans-serif;
+        color: green;
+    }
+    
+    .course_completed_font_3{
+        font-size: 4.2rem;
+        font-family: sans-serif;
+    }
+    
+    .course_completed_font_4{
+        font-size: 2.2rem;
+        font-family: Verdana, sans-serif;
+    }
+    
+    .course_completed_font_5{
+        font-size: 2rem;
+        font-family: Verdana, sans-serif;
+        color: green;
+    }
+    
+    .course_completed_icon{
+        height: 5rem;
+    }
+}

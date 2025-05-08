@@ -1,0 +1,63 @@
+.programming_and_development_section{
+    width: 70%;
+    border-radius: 2rem;
+    border: 2px solid green
+}
+
+.programming_and_development_section_2{
+    width: 100%;
+}
+
+.programming_and_development_font_1{
+    font-size: 4rem;
+    font-family: Verdana, sans-serif;
+}
+
+.programming_and_development_font_2{
+    font-size: 4rem;
+    font-family: Verdana, sans-serif;
+    color: green;
+}
+
+.programming_and_development_font_3{
+    font-size: 3rem;
+    font-family: sans-serif;
+}
+
+.programming_and_development_font_4{
+    font-size: 2rem;
+    font-family: Verdana, sans-serif;
+}
+
+.programming_and_development_logos{
+    height: 15rem;
+    border: solid 2px black;
+    border-radius: 50%;
+}
+
+@media(max-width: 998px){
+    .programming_and_development_font_1{
+        font-size: 5.8rem;
+        font-family: Verdana, sans-serif;
+    }
+    
+    .programming_and_development_font_2{
+        font-size: 5.8rem;
+        font-family: Verdana, sans-serif;
+        color: green;
+    }
+    
+    .programming_and_development_font_3{
+        font-size: 4.2rem;
+        font-family: sans-serif;
+    }
+    
+    .programming_and_development_font_4{
+        font-size: 3rem;
+        font-family: Verdana, sans-serif;
+    }
+    
+    .programming_and_development_logos{
+        height: 21rem;
+    }
+}

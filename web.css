@@ -1,0 +1,29 @@
+html{
+    font-size: 10px;
+}
+
+* {
+    margin: 0;
+}
+
+a{text-decoration: none; color: black}
+
+@media(max-width: 998px){
+    html{
+        font-size: 35%;
+        }
+
+}
+
+@media(max-width: 768px){
+    html{
+        font-size: 23%;
+        }
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
